@@ -1,5 +1,7 @@
 # ECR Upload To S3
 
+[![Docker Automated buil](https://img.shields.io/docker/automated/atyagi/ecr-upload-to-s3.svg)]()
+
 Uploads ECR Docker credentials to S3. Inspired by [adobe-platform/aws-ecr-login](https://github.com/adobe-platform/aws-ecr-login)
 
 Effectively creates a docker.tar.gz file from the authorization that is used when accessing private ECR repositories in [Marathon](https://mesosphere.github.io/marathon/) or [DC/OS](https://dcos.io).
