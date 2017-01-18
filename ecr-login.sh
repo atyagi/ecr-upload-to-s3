@@ -106,8 +106,6 @@ while true; do
     # Create the final .tar.gz
     log "Creating Docker tar at /docker/docker.tar.gz"
     cd /docker
-    pwd
-    ls -la
     tar czf docker.tar.gz .docker
 
     if [ -z "$S3_PATH" ]; then
