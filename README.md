@@ -1,6 +1,6 @@
 # ECR Upload To S3
 
-[![Docker Automated buil](https://img.shields.io/docker/automated/atyagi/ecr-upload-to-s3.svg)]()
+[![Docker Automated buil](https://img.shields.io/docker/automated/atyagi/ecr-upload-to-s3.svg)](https://hub.docker.com/r/atyagi/ecr-upload-to-s3/)
 
 Uploads ECR Docker credentials to S3. Inspired by [adobe-platform/aws-ecr-login](https://github.com/adobe-platform/aws-ecr-login)
 
