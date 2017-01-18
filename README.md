@@ -15,8 +15,8 @@ Use these to change the behavior of the container.
 ### Optional
 - `INTERVAL` - Change the interval, in seconds, for when the credentials will get updated. Defaults to 21600 (6 hours)
 - `S3_PATH` - An optional path that sits underneath the S3 bucket 
-- `AWS_ACCESS_KEY_ID` - 
-- `AWS_SECRET_ACCESS_KEY` - 
+- `AWS_ACCESS_KEY_ID` - If passed in, the aws cli commands will use this key
+- `AWS_SECRET_ACCESS_KEY` - If passed in, the aws cli commands will use this secret key
 
 ## Examples for Running
 
